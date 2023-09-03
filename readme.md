@@ -1,6 +1,6 @@
-# Project Template Readme
+# XUnit Test Runner
 
-Welcome to the **Project Template** repository! This README file provides detailed instructions for users on Windows, macOS, and Linux systems to set up, compile, test, and run a Python project named `prog.py`. This project is licensed under the Apache License 2.0 and is maintained by `dreamer-coding-555`. It requires Python 3.8 and newer.
+The Trilobite XTest Runner is a versatile and user-friendly testing and benchmarking tool designed to simplify your software development workflow. Whether you're a software developer, quality assurance engineer, or a performance analyst, this application empowers you to effortlessly run tests and benchmarks, monitor their progress, and manage your project directory—all from a single, intuitive interface.
 
 ## Intended Audience
 
@@ -16,22 +16,22 @@ Before you proceed, ensure you have the following prerequisites installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/dreamer-coding-555/python-project-template.git
-   cd python-project-template
+   git clone https://github.com/dreamer-coding-555/xtest-runner.git
+   cd xtest-runner
    ```
 
 2. **Run the Project**:
    ```bash
-   python prog.py
+   python xrunner.py
    ```
 
 ## Contributing
 
-If you're interested in contributing to this project, please consider opening pull requests or raising issues on the [GitHub repository](https://github.com/dreamer-coding-555/python-project-template).
+If you're interested in contributing to this project, please consider opening pull requests or raising issues on the [GitHub repository](https://github.com/dreamer-coding-555/xtest-runner).
 
 ## Feedback and Support
 
-If you come across any issues, have questions, or would like to provide feedback, feel free to open an issue on the [GitHub repository](https://github.com/dreamer-coding-555/python-project-template/issues).
+If you come across any issues, have questions, or would like to provide feedback, feel free to open an issue on the [GitHub repository](https://github.com/dreamer-coding-555/xtest-runner/issues).
 
 ## License
 
