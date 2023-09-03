@@ -2,10 +2,6 @@
 
 The Trilobite XTest Runner is a versatile and user-friendly testing and benchmarking tool designed to simplify your software development workflow. Whether you're a software developer, quality assurance engineer, or a performance analyst, this application empowers you to effortlessly run tests and benchmarks, monitor their progress, and manage your project directory—all from a single, intuitive interface.
 
-## Intended Audience
-
-This guide is aimed at developers of all levels who wish to utilize this Python project template. It assumes a basic familiarity with command-line interfaces and Python programming.
-
 ## Prerequisites
 
 Before you proceed, ensure you have the following prerequisites installed:
