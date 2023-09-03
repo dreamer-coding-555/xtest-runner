@@ -22,7 +22,7 @@ class TestRunnerApp(tk.Tk):
         # Label at the top
         self.title_label = tk.Label(self, text="Trilobite XTest Runner - ", font=("Arial", 17, "bold"), bg="gray40", fg="blue")
         self.title_label.grid(row=0, column=0, columnspan=2, padx=10, pady=10, sticky="n")
-        
+
         self.title_info = tk.Label(self, text="(The test runner GUI)", font=("Arial", 17, "bold"), bg="gray40", fg="dark blue")
         self.title_info.grid(row=0, column=1, columnspan=4, padx=10, pady=10, sticky="n")
 
@@ -72,7 +72,7 @@ class TestRunnerApp(tk.Tk):
         self.clear_screen()  # Clear the screen before running tests
         self.write_to_output("Running Tests...")
         self.run_command(['meson', 'test', '-C', f'{self.project_directory.get()}/builddir', '-v', '--test-args=--only-test'])
-    
+
     def run_benchmarks(self, args=None):
         self.clear_screen()  # Clear the screen before running benchmarks
         self.write_to_output("Running Benchmarks...")
