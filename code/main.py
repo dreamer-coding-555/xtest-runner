@@ -4,7 +4,8 @@
 # author: Michael Gene Brockus (Dreamer)
 # Gmail: <mail: michaelbrockus@gmail.com>
 #
-from .program import greet
+from .program import TestRunnerApp
 
 def main_prog():
-    print(greet())
+    app = TestRunnerApp()
+    app.mainloop()
